@@ -1,0 +1,2 @@
+# Dockerfile Bug: Missing requirements.txt
+This repository demonstrates a common error in Dockerfiles: attempting to install dependencies using `pip3 install -r requirements.txt` when the `requirements.txt` file is missing.  This leads to a build failure.  The solution shows how to correctly include the `requirements.txt` file.
